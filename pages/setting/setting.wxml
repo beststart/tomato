@@ -1,0 +1,16 @@
+<view class="main">
+    <view>
+        <label>工作时长(分钟)</label>
+        <slider max="60" min="10" bindchange="changeWork" value="{{workTime}}" show-value></slider>
+    </view>
+    <view>
+        <text>休息时长(分钟)</text>
+        <slider max="60" min="5" value="{{restTime}}" bindchange="changeRest" show-value></slider>
+    </view>
+    <view class="mp3-view">
+        <label>
+            <switch type="checkbox" checked="{{mp3Check}}" bindchange="changeMp3"></switch>
+            <text>启用铃声</text>
+        </label>
+    </view>
+</view>

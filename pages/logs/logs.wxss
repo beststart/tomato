@@ -1,0 +1,27 @@
+.log-list{
+    height: 90%;
+    background-color:white; 
+    margin: 5px;
+    color: rgba(0, 0, 0, .6);
+}
+.log-item{
+    height: 30px;
+    padding:10px 5px;
+    text-align: center;
+}
+.log-item text{
+    margin-right: 25px;
+    line-height: 30px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin:3px auto;
+}

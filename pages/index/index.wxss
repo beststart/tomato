@@ -1,0 +1,63 @@
+#main{
+  height: 100%;
+}
+.top-view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  background-color: #3197ED;
+}
+.time{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time text{
+  font-size: 50px;
+  color: white;
+}
+.end-view{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(250, 72, 72);
+  margin:25px;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+.msg-view{
+  margin-bottom: 35px;
+  color:rgba(255, 255, 255, .6);
+}
+.work-name{
+  height: 40px;
+  text-align: center;
+  margin:5px;
+  border-bottom: 1px solid gray;
+}
+.btn-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn-view view{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:20px;
+  color: white;
+}
